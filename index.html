@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="logo">YourName</div>
+      <ul>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="intro">
+      <h1>Designing elegant apps & solving problems</h1>
+      <p>Frontend • Backend • DevOps</p>
+      <a class="cta" href="#work">See my work</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="work" class="cards">
+      <article class="card">
+        <h3>Project One</h3>
+        <p>Short description of project one. Tech: React, Node.</p>
+      </article>
+      <article class="card">
+        <h3>Project Two</h3>
+        <p>Short description of project two. Tech: Flask, Docker.</p>
+      </article>
+    </section>
+
+    <section id="about" class="panel">
+      <h2>About me</h2>
+      <p>Third-year CS student passionate about building practical, elegant software.</p>
+    </section>
+
+    <section id="contact" class="panel">
+      <h2>Contact</h2>
+      <p>Email: you@example.com</p>
+    </section>
+  </main>
+
+  <footer class="footer">© <span id="year"></span> YourName</footer>
+  <script>document.getElementById('year').innerText = new Date().getFullYear();</script>
+</body>
+</html>
