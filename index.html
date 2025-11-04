@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Your Name — Portfolio</title>
+  <title>Shreyash Govindwar — Portfolio</title>
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
@@ -51,16 +51,34 @@
   </section>
 </main>
 
-    <section id="about" class="panel">
-      <h2>About me</h2>
-      <p>Final-year CS student passionate about building practical, elegant software solutions.</p>
-    </section>
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <img src="profile.jpg" alt="Profile Picture" class="profile-pic" />
+      <div class="about-text">
+        <p>
+          I'm a Computer Science student passionate about building interactive and 
+          efficient web applications. My interests include front-end development, 
+          user experience design, and automation using DevOps tools like Jenkins and Docker.
+        </p>
+        <p>
+          Apart from coding, I enjoy contributing to open-source projects and exploring 
+          emerging technologies that make development smarter and faster.
+        </p>
+      </div>
+    </div>
+  </section>
 
-    <section id="contact" class="panel">
-      <h2>Contact</h2>
-      <p>Email: shreyashgovindwar09@gmail.com</p>
-    </section>
-  </main>
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Have a project in mind or want to collaborate? Let's get in touch!</p>
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
 
   <footer class="footer">© <span id="year"></span> Shreyash Govindwar</footer>
   <script>document.getElementById('year').innerText = new Date().getFullYear();</script>
