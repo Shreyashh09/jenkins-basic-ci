@@ -132,3 +132,111 @@ body {
   box-shadow: 0 0 20px #00ff99, 0 0 40px #00ff99;
   transform: translateY(-2px);
 }
+/* === ABOUT SECTION === */
+.about {
+  padding: 5rem 2rem;
+  background: #0b0b0b;
+  color: #e8e8e8;
+  text-align: center;
+}
+
+.about h2 {
+  color: #00ff99;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #00ff99;
+  box-shadow: 0 0 15px #00ff9966;
+}
+
+.about-text {
+  max-width: 550px;
+  text-align: left;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.about-text p {
+  margin-bottom: 1rem;
+}
+
+/* === CONTACT SECTION === */
+.contact {
+  background: #111;
+  padding: 5rem 2rem;
+  text-align: center;
+  color: #f5f5f5;
+}
+
+.contact h2 {
+  color: #00ff99;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  color: #ccc;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.9rem;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #1a1a1a;
+  color: #e0e0e0;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #00ff99;
+  box-shadow: 0 0 8px #00ff9944;
+}
+
+.contact-form button {
+  padding: 0.8rem 1.5rem;
+  background: #00ff99;
+  border: none;
+  border-radius: 8px;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #00cc77;
+  box-shadow: 0 0 15px #00ff99aa;
+}
